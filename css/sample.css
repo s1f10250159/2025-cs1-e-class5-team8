@@ -2,8 +2,9 @@ body{
     margin: none;
 }
 
+/*それぞれのページの背景画像を指定*/
 #home{
-    background-image: url(../img/japan-9641526_1280.webp);
+    background-image: url();
 }
 
 #page1{
