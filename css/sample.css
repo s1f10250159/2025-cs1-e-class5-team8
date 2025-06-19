@@ -3,8 +3,8 @@
     top: 30%;
     left: 40%;
     padding: 8px 12px;/*上下 左右*/
-    background-color: #77889980;
-    color: white;
+    background-color: #77889980;/*ページボタンの背景色*/
+    color: white;/*ページボタンのフォントカラー*/
     text-decoration: none;/*下線削除*/
     border-radius: 6px;
     font-size: 3vw;
@@ -20,11 +20,11 @@
     position: fixed;
     top: 5px;
     left: 10px;
-    font-size: 3vw;
-    color: #333;
+    font-size: 2vw;
+    color:white;/*三本線の色*/
     border: none;
     cursor: pointer;
-    background-color: #77889980;
+    background-color: #77889980;/*メニューボタンの色*/
     z-index: 1000;/*最前面に*/
 }
 
@@ -38,7 +38,7 @@
     left: 0;
     width: 20vw;
     height: 100%;
-    background-color: #ADCBEB80;
+    background-color: #ADCBEB80;/*メニューバーの色*/
     padding: 40px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
     transform: translateX(-100%);
@@ -69,3 +69,7 @@
     text-decoration: underline;
 }
 
+
+.page-content{
+    padding: 30px 30px;
+}
