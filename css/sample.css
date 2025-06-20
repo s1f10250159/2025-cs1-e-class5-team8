@@ -19,23 +19,6 @@ body{
     background-image: url();
 }
 
-.page-button{
-    position: absolute;
-    top: 30%;
-    left: 40%;
-    padding: 8px 12px;/*上下 左右*/
-    background-color: #77889980;/*ページボタンの背景色*/
-    color: white;/*ページボタンのフォントカラー*/
-    text-decoration: none;/*下線削除*/
-    border-radius: 6px;
-    font-size: 3vw;
-    cursor: pointer;/*指マーク*/
-}
-
-.page-button:hover{
-    background-color: #63768d80;
-}
-
 /*メニュー*/
 #menu-button{
     position: fixed;
