@@ -1,3 +1,9 @@
+#page-content ul{
+    background-color:#ADCBEB80;
+    padding: 20px;
+    list-style: none;
+}
+
 /*ページの背景画像を指定*/
 #page3{
     background-image: url();
