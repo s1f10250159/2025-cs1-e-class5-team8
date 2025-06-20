@@ -1,5 +1,6 @@
-#turk {
-    width: 400px;
+.turk {
+    display: flex;
+    height: 250px;
 }
 
 /*ページの背景画像を指定*/
@@ -50,12 +51,12 @@
     /*左からスライドイン*/
 }
 
-#page-content.filter{
+#page-content.filter {
     filter: blur(4px);
 }
 
 
-#menu ul{
+#menu ul {
     list-style: none;
     padding: 0;
 }
