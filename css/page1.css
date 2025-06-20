@@ -1,33 +1,43 @@
+#turk {
+    width: 400px;
+}
+
 /*ページの背景画像を指定*/
-#page1{
+#page1 {
     background-image: url();
 }
 
 /*メニュー*/
-#menu-button{
-    position: fixed;/*位置固定*/
+#menu-button {
+    position: fixed;
+    /*位置固定*/
     top: 5px;
     left: 10px;
     font-size: 2vw;
-    color:white;/*三本線の色*/
+    color: white;
+    /*三本線の色*/
     border: none;
     cursor: pointer;
-    background-color: #77889980;/*メニューボタンの色*/
-    z-index: 1000;/*最前面に*/
+    background-color: #77889980;
+    /*メニューボタンの色*/
+    z-index: 1000;
+    /*最前面に*/
 }
 
-#menu-button:hover{
-    background-color: #63768d80;/*マウスを乗せたときの色*/
+#menu-button:hover {
+    background-color: #63768d80;
+    /*マウスを乗せたときの色*/
 }
 
-#menu{
+#menu {
     position: fixed;
     top: 0;
     left: 0;
     /*メニューバーの大きさ*/
     width: 20vw;
     height: 100%;
-    background-color: #ADCBEB80;/*メニューバーの色*/
+    background-color: #ADCBEB80;
+    /*メニューバーの色*/
     padding: 40px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
     transform: translateX(-100%);
@@ -35,8 +45,9 @@
     z-index: 999;
 }
 
-#menu.show{
-    transform: translateX(0);/*左からスライドイン*/
+#menu.show {
+    transform: translateX(0);
+    /*左からスライドイン*/
 }
 
 #page-content.filter{
@@ -49,17 +60,15 @@
     padding: 0;
 }
 
-#menu li{
-    margin:10px 0;
+#menu li {
+    margin: 10px 0;
 }
 
-#menu a{
+#menu a {
     text-decoration: none;
     color: #333;
 }
 
-#menu a:hover{
+#menu a:hover {
     text-decoration: underline;
 }
-
-
