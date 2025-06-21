@@ -98,7 +98,7 @@ hr{
 }
 
 #page-content.filter{
-    filter: blur(4px);
+    filter: blur(4px) brightness(30%);
 }
 
 #menu ul{
@@ -112,7 +112,7 @@ hr{
 
 #menu a{
     text-decoration: none;
-    color: #333;
+    color:#ffffffe6;
     font-weight: bold;
     font-size: 25px;
 }
