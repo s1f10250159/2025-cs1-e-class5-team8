@@ -1,3 +1,8 @@
+body{
+    background-color: #333;
+    color: white;
+}
+
 header{
     padding: 10px 10px;
     margin: 10px;
@@ -5,23 +10,49 @@ header{
 
 .location{
     display: block;
-    background-color: #ADCBEB80;
-    width: 350px;
+    width: 90%;
     height: 180px;
     padding: 30px;
-    margin: 10px;
+    margin: 10px auto;/*ブロックを中央に*/
     text-decoration: none;
     color: inherit;
 }
 
 .location:hover{
-    color: #77889980;
+    filter: brightness(50%)
 }
 
 .location-content{
-    display: flex;
-    gap: 20px;
-    flex-wrap: wrap;
+    display: block;
+}
+
+#aquarium{
+    background-image: url(../img/その他/jellyfish-3814142_1280.jpg);
+    color: #ffffffe6;
+}
+
+#museum{
+    background-image: url(../img/その他/animal-7888465_1280.jpg);
+    background-position: center;
+    background-size: 100%;
+    color: #ffffffe6;
+}
+
+#art-museum{
+    background-image: url(../img/その他/museum-1570823_1280.jpg);
+    background-position: center;
+    color: #ffffffe6;
+}
+
+.description{
+    max-width: 60%;
+    line-height: 1.8;
+    margin: 10px auto;
+    font-size: large;
+}
+
+hr{
+    width: 95%;
 }
 
 
