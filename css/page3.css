@@ -1,8 +1,29 @@
-#page-content ul{
-    background-color:#ADCBEB80;
-    padding: 20px;
-    list-style: none;
+header{
+    padding: 10px 10px;
+    margin: 10px;
 }
+
+.location{
+    display: block;
+    background-color: #ADCBEB80;
+    width: 350px;
+    height: 180px;
+    padding: 30px;
+    margin: 10px;
+    text-decoration: none;
+    color: inherit;
+}
+
+.location:hover{
+    color: #77889980;
+}
+
+.location-content{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
 
 /*ページの背景画像を指定*/
 #page3{
@@ -61,6 +82,8 @@
 #menu a{
     text-decoration: none;
     color: #333;
+    font-weight: bold;
+    font-size: 25px;
 }
 
 #menu a:hover{
